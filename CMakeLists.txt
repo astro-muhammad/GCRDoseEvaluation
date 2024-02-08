@@ -1,7 +1,7 @@
 ﻿cmake_minimum_required(VERSION 3.16...3.21)
 
 # Name your project
-project(g4_custom_simulation)
+project(GCRDoseEvaluation)
 
 # Enable C++20 or any other version you prefer
 set(CMAKE_CXX_STANDARD 20)
