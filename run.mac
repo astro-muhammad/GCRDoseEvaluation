@@ -1,0 +1,14 @@
+# run.mac
+# Macro to run the simulation
+
+# Initialize the run
+/run/initialize
+
+# Set the number of events to simulate
+/run/beamOn 1000
+
+# Optionally, you can include commands to set up your particle source, like:
+#/gps/particle proton
+#/gps/energy 100 MeV
+#/gps/position 0 0 0 cm
+#/gps/direction 0 0 1
